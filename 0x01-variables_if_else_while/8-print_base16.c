@@ -1,23 +1,24 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
- *  * main - Prints numbers between 0 to 9 and letters between a to f.
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ * main - Prints numbers between 0 to 9 and letters between a to f.
+ *
+ * Return: Always 0.
+*/
+
 int main(void)
 {
-		int i;
+	int num = 48;
 
-		for (i = 48; i < 58; i++)
-		{
-			putchar(i);
-									}
-		for (i = 97; i < 103; i++)
-		{
-			putchar(i);
-									}
-			putchar('\n');
-		return (0);
+	while (num <= 102)
+	{
+		putchar(num);
+
+		if (num == 57)
+			num += 39;
+		++num;
+	}
+	putchar('\n');
+
+	return (0);
 }
-

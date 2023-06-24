@@ -1,20 +1,21 @@
-6-print_numberz.c
-
-#include <stdio.h>
+#include<stdio.h>
 
 /**
- *  * main - Prints numbers from 0 to 9.
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ * main - Prints numbers from 0-9
+ *
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-		int i;
+	int num = 0;
 
-		for (i = 48; i < 58; i++)
-		{
-			putchar(i);
-									}
-			putchar('\n');
-		return (0);
+	while (num <= 9)
+	{
+		putchar(num + '0');
+		++num;
+	}
+	putchar('\n');
+
+	return (0);
 }
