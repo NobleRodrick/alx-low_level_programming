@@ -1,1 +1,1 @@
-##  POINTERS, ARRAYS AND STRINGS
+##  POINTERS, ARRAYS AND STRINGS, getting to know it more!
